@@ -9,3 +9,5 @@
 - Function calling: these allow you to use any Python function as a tool.
 - Agents as tools: this allows you to use an agent as a tool, allowing Agents to call other agents without handing off to them.
 
+5. When the task is handedoff to an agent, the next query will be processed by that agent. If we use the agents as tools, everytime it will go back to the primary agent to start the workflow.
+
