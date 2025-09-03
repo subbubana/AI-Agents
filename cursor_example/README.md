@@ -94,18 +94,25 @@ cursor_example/
 - **Session Storage**: SQLite database for persistent conversation history
 
 ## Sample test case
-`
+\`
+
 User: Create a sample todo list project.
+
 A sample "todo list" project has been created with the following structure and features:
 
-**Files included:**
-- `README.md`: Project overview and features
-- `index.html`: The main HTML page for the todo app
-- `style.css`: Basic styling for a clean UI
-- `app.js`: JavaScript to handle adding, marking, and removing todos
+\*\*Files included:\*\*
 
-You can find this project in the `sample_files/todo-list` directory. Let me know if you'd like to add more features or want instructions to run this todo list!
-`
+\- \`README.md\`: Project overview and features
+
+\- \`index.html\`: The main HTML page for the todo app
+
+\- \`style.css\`: Basic styling for a clean UI
+
+\- \`app.js\`: JavaScript to handle adding, marking, and removing todos
+
+You can find this project in the \`sample\_files/todo-list\` directory. Let me know if you'd like to add more features or want instructions to run this todo list!
+
+\`
 
 ## Troubleshooting
 
