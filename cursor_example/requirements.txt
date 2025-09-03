@@ -1,5 +1,5 @@
 # Core dependencies for MCP Filesystem Server Example
-agents>=0.1.0
+openai-agents
 python-dotenv>=1.0.0 #To load the environment variables
 # Additional dependencies that may be required
 asyncio
