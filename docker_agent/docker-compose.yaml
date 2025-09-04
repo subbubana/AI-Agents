@@ -1,0 +1,11 @@
+version: "3.8"
+services:
+  mcp-agent:
+    build: .
+    container_name: mcp_agent
+    environment:
+      - OPENAI_API_KEY=${OPENAI_API_KEY}
+    volumes:
+      - ./:/app/sample_files  # Mount local sample_files directory for persistence
+    stdin_open: true  # Keep STDIN open for interactive input
+    tty: true         # Allocate a pseudo-TTY for console interaction
